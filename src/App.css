@@ -1,0 +1,34 @@
+
+.App {
+  text-align: center;
+}
+.movie-poster{
+  height: 500px;
+  width: 340px;
+  object-fit: cover;
+}
+.movie-name{
+  font-size: 24px;
+  margin: 8px 0px;
+}
+
+.movie-container{
+  width: 340px;
+}
+body{
+  margin: 24px;
+}
+.movie-list{
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movie-details{
+  padding: 10px;
+}
+.food-list{
+  display: flex;
+  gap: 25px;
+}
